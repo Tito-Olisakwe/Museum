@@ -1,4 +1,4 @@
-**ADA IN TECH**
+![image](https://github.com/user-attachments/assets/d405c3b6-791b-4066-9bec-00835f908baf)**ADA IN TECH**
 ---------------
 
 A VR museum that brings the groundbreaking achievements of African women in tech to life, blending innovation and culture in an immersive experience that inspires pride and curiosity.
@@ -156,10 +156,14 @@ This section showcases the design process and visual assets used in the project.
 ### **2. Screenshots**
 - Below are screenshots of the VR museum in development:
 
-![Museum Screenshot 1](https://drive.google.com/file/d/1pJQCG6qr3oaVLXMSL4_nPBUpHn64P7fg/view?usp=drive_link)
-![Museum Screenshot 2](https://drive.google.com/file/d/18Fp3BA8umyiwhzfnv0PGPhQodbvQaeUI/view?usp=drive_link)
-![Museum Screenshot 3](https://drive.google.com/file/d/1kb-ER3JkLzp6TrnoM7yinb00VVtVgZwS/view?usp=drive_link)
-![Museum Screenshot 4](https://drive.google.com/file/d/1oHYeJbkw-iOhd633b5_xBbEqoKSHhx8z/view?usp=drive_link)
+![Museum Screenshot 1]![image](https://github.com/user-attachments/assets/1be3f439-82e8-4693-b678-6232c00d10d2)
+
+![Museum Screenshot 2]![image](https://github.com/user-attachments/assets/9f5d6a57-3522-46f7-8ac4-91ac7fb8e46a)
+
+![Museum Screenshot 3]![image](https://github.com/user-attachments/assets/0da2a991-399e-4b24-b8ee-316d5a9b5912)
+
+![Museum Screenshot 4]![image](https://github.com/user-attachments/assets/e5c0b8a3-8182-4c29-a094-422fcac4a8b1)
+
 ---
 
 ## **Deployment Plan**
