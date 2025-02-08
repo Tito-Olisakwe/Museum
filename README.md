@@ -55,7 +55,7 @@ A VR museum that brings the groundbreaking achievements of African women in tech
 
 Detailed & Game Systems Design
 
-**Scope**In the first iteration of the VR museum, the focus is on an exhibition celebrating four African women and one of their most significant contributions to the tech industry. The priority will be user-friendly navigation and interaction with exhibits, ensuring an engaging and seamless experience. The timeline for completion of this iteration is set for November 24, 2024.
+**Scope**In the first iteration of the VR museum, the focus is on an exhibition celebrating four African women and one of their most significant contributions to the tech industry. The priority will be user-friendly navigation and interaction with exhibits, ensuring an engaging and seamless experience. The timeline for completion of this iteration is set for March 28, 2025.
 
 #### **Assets**
 
@@ -63,7 +63,7 @@ Detailed & Game Systems Design
     
     *   Images and videos showcasing the women and their work.
         
-    *   3D models to decorate the museum.
+    *   3D models of projects by the women.
         
     *   Audio clips, including culturally inspired African background music.
         
@@ -78,7 +78,7 @@ Detailed & Game Systems Design
     
     *   Users will navigate using teleportation and smooth locomotion.
         
-    *   A tutorial wall at the start provides essential instructions, with tooltips on the left and right controllers to guide users.
+    *   Tooltips on the left and right controllers to guide users.
         
     *   Interaction options include teleporting or moving to exhibits, clicking buttons to view more information, and repositioning info tabs as desired.
         
@@ -110,3 +110,62 @@ Detailed & Game Systems Design
     *   Read informative panels and view media files (images/videos).
         
     *   Interact with movable 3D models, including spinning and throwing them for fun.
+
+
+## **Project Repository**
+You can find the source code and latest updates for this project on GitHub:  
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/Tito-Olisakwe/Museum.git)  
+
+---
+
+## **How to Set Up the Environment and Project**
+To set up and run the VR museum project, follow these steps:
+
+### **1. Download and Extract the Project Files**
+- Download the **ZIP file** of the project.
+- Extract the ZIP file into your preferred directory.
+
+### **2. Install Unity**
+- Ensure you have **Unity 6000.0.32f1** installed. You can download it from [Unity Hub](https://unity.com/download).
+- Open Unity Hub and **add the project folder** to your Unity projects list.
+
+### **3. Open the Project**
+- Launch Unity and select the extracted project folder.
+- In **Build Settings**, make sure the **museum scene** is selected.
+
+### **4. Connect Your VR Headset**
+- **Supported headsets**: Meta Quest 2, Meta Quest 3S, or Meta Quest 3.
+- Enable **Developer Mode** on your headset:
+  - Open the **Meta Quest app** on your phone.
+  - Navigate to **Settings > Your Headset > More Settings > Developer Mode** and enable it.
+- Connect the headset to your **PC via USB** and accept the debugging prompt.
+
+### **5. Build and Deploy the Project**
+- Go to **File > Build Settings** in Unity.
+- Select **Android** as the build platform.
+- Click **Build & Run** to deploy the VR museum to your connected Meta Quest headset.
+
+---
+
+## **Designs**
+This section showcases the design process and visual assets used in the project.
+
+### **1. Figma Prototypes**
+- [View Figma Designs Here](INSERT_FIGMA_LINK_HERE)  
+
+### **2. Screenshots**
+- Below are screenshots of the VR museum in development:
+
+![Museum Screenshot 1](INSERT_SCREENSHOT_LINK_HERE)
+![Museum Screenshot 2](INSERT_SCREENSHOT_LINK_HERE)
+
+---
+
+## **Deployment Plan**
+The VR museum will be deployed on **AppLab** and **SideQuest** for easy installation on Meta Quest devices.
+
+---
+
+## **Video Demo**
+📹 A walkthrough of the VR museum experience:  
+[INSERT_VIDEO_DEMO_LINK_HERE]  
