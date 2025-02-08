@@ -156,9 +156,10 @@ This section showcases the design process and visual assets used in the project.
 ### **2. Screenshots**
 - Below are screenshots of the VR museum in development:
 
-![Museum Screenshot 1](INSERT_SCREENSHOT_LINK_HERE)
-![Museum Screenshot 2](INSERT_SCREENSHOT_LINK_HERE)
-
+![Museum Screenshot 1](https://drive.google.com/file/d/1pJQCG6qr3oaVLXMSL4_nPBUpHn64P7fg/view?usp=drive_link)
+![Museum Screenshot 2](https://drive.google.com/file/d/18Fp3BA8umyiwhzfnv0PGPhQodbvQaeUI/view?usp=drive_link)
+![Museum Screenshot 3](https://drive.google.com/file/d/1kb-ER3JkLzp6TrnoM7yinb00VVtVgZwS/view?usp=drive_link)
+![Museum Screenshot 4](https://drive.google.com/file/d/1oHYeJbkw-iOhd633b5_xBbEqoKSHhx8z/view?usp=drive_link)
 ---
 
 ## **Deployment Plan**
