@@ -114,7 +114,7 @@ Detailed & Game Systems Design
 
 ## **Project Repository**
 You can find the source code and latest updates for this project on GitHub:  
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/Tito-Olisakwe/Museum.git)  
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/Tito-Olisakwe/Museum/tree/prototype)  
 
 ---
 
@@ -151,15 +151,32 @@ To set up and run the VR museum project, follow these steps:
 This section showcases the design process and visual assets used in the project.
 
 ### **1. Figma Prototypes**
-- [View Figma Designs Here](INSERT_FIGMA_LINK_HERE)  
+- [View Figma Designs Here](https://www.figma.com/design/b4rHDkW4p0F1lYHPbt7B9q/Ada-in-Tech?node-id=15-166&p=f&t=EWH2i1wLGDWnVziH-0)  
 
 ### **2. Screenshots**
 - Below are screenshots of the VR museum in development:
 
-![Museum Screenshot 1](https://drive.google.com/file/d/1pJQCG6qr3oaVLXMSL4_nPBUpHn64P7fg/view?usp=drive_link)
-![Museum Screenshot 2](https://drive.google.com/file/d/18Fp3BA8umyiwhzfnv0PGPhQodbvQaeUI/view?usp=drive_link)
-![Museum Screenshot 3](https://drive.google.com/file/d/1kb-ER3JkLzp6TrnoM7yinb00VVtVgZwS/view?usp=drive_link)
-![Museum Screenshot 4](https://drive.google.com/file/d/1oHYeJbkw-iOhd633b5_xBbEqoKSHhx8z/view?usp=drive_link)
+**General look**
+
+![image](https://github.com/user-attachments/assets/1be3f439-82e8-4693-b678-6232c00d10d2)
+![image](https://github.com/user-attachments/assets/d405c3b6-791b-4066-9bec-00835f908baf)
+![image](https://github.com/user-attachments/assets/0da2a991-399e-4b24-b8ee-316d5a9b5912)
+![image](https://github.com/user-attachments/assets/e5c0b8a3-8182-4c29-a094-422fcac4a8b1)
+![image](https://github.com/user-attachments/assets/f0ad3177-1f79-4d92-b3c0-c2206b75c727)
+
+
+**Closer look at an exhibit**
+![image](https://github.com/user-attachments/assets/696bd293-08db-4498-9a65-a05807eda944)
+
+**Images**
+![image](https://github.com/user-attachments/assets/93348f56-6be8-4ccb-88ac-09427b5e5dc2)
+
+**Video**
+![image](https://github.com/user-attachments/assets/917b0a45-4500-4376-93af-864bb9156258)
+
+**Long Bio**
+![image](https://github.com/user-attachments/assets/6e99e205-929f-4962-b4ed-22b6ebe8073d)
+
 ---
 
 ## **Deployment Plan**
