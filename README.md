@@ -3,7 +3,7 @@
 
 A VR museum that brings the groundbreaking achievements of African women in tech to life, blending innovation and culture in an immersive experience that inspires pride and curiosity.
 
-**Genre(s)**VR Edutainment/Simulation
+**Genre(s):** VR Edutainment/Simulation
 
 **Game Persona and POV**
 
@@ -185,5 +185,5 @@ The VR museum will be deployed on **AppLab** and **SideQuest** for easy installa
 ---
 
 ## **Video Demo**
-📹 A walkthrough of the VR museum experience:  
-[INSERT_VIDEO_DEMO_LINK_HERE]  
+📹 Find the prototype video (AIT Prototype) in the media folder of the zip file or via this link:  
+[https://drive.google.com/file/d/1UXhWkYaajnFI6tLzVt1JI_Cnlkx50OpQ/view?usp=drive_link]  
