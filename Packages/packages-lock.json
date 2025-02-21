@@ -306,6 +306,15 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.xr.oculus": {
+      "version": "4.4.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.xr.management": "4.4.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.xr.openxr": {
       "version": "1.13.2",
       "depth": 0,
@@ -317,6 +326,13 @@
         "com.unity.xr.legacyinputhelpers": "2.1.2"
       },
       "url": "https://packages.unity.com"
+    },
+    "net.gree.unity-webview": {
+      "version": "https://github.com/gree/unity-webview.git?path=/dist/package-nofragment",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d9f56ca4445dd9a2cde4e1a3b3e61ebecef6a2a6"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
