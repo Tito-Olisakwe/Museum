@@ -21,17 +21,19 @@ public class SearchManager : MonoBehaviour
     public TMP_InputField searchInput;
     public GameObject searchResultsContainer;
     public GameObject searchResultPrefab;
-    public TeleportationProvider teleportationProvider;
 
     private bool isSearchOpen = false;
     private InputDevice leftController;
     private bool xButtonPressed = false;
     private float buttonCooldown = 0.3f;
     private float lastButtonPressTime = 0f;
+    private TeleportationProvider teleportationProvider;
 
     void Start()
     {
         searchInput.onValueChanged.AddListener(UpdateSearchResults);
+
+        StartCoroutine(FindTeleportationProvider());
     }
 
     void Update()
@@ -162,6 +164,38 @@ public class SearchManager : MonoBehaviour
         else
         {
             Debug.LogWarning("⚠️ XRInputSubsystem not found. Headset may not reset.");
+        }
+    }
+
+    private IEnumerator FindTeleportationProvider()
+    {
+        TeleportationProvider provider = null;
+        float timeout = 25f;
+        float elapsedTime = 0f;
+
+        while (provider == null && elapsedTime < timeout)
+        {
+            GameObject xrRig = GameObject.FindWithTag("Player");
+            if (xrRig != null)
+            {
+                provider = xrRig.GetComponentInChildren<TeleportationProvider>();
+            }
+
+            if (provider == null)
+            {
+                yield return new WaitForSeconds(0.1f);
+                elapsedTime += 0.1f;
+            }
+        }
+
+        if (provider != null)
+        {
+            teleportationProvider = provider;
+            Debug.Log("✅ TeleportationProvider found and assigned!");
+        }
+        else
+        {
+            Debug.LogError("🚨 TeleportationProvider could not be found!");
         }
     }
 
