@@ -1,8 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using UnityEngine.XR;
+using System.Collections.Generic;
 using Normal.Realtime;
+using UnityEngine.XR;
 
 public class LiveChatManager : RealtimeComponent<ChatModel> {
     public GameObject chatPanel;
@@ -56,27 +57,65 @@ public class LiveChatManager : RealtimeComponent<ChatModel> {
         string message = chatInput.text;
         chatInput.text = "";
 
+        string username = PlayerPrefs.GetString("Username", "Player");
+        if (string.IsNullOrEmpty(username)) {
+            username = "Unknown";
+        }
+
+        ChatEntry newEntry = new ChatEntry { username = username, message = message };
+
         if (model != null) {
-            model.latestMessage = message;
+            List<ChatEntry> chatEntries = new List<ChatEntry>();
+
+            if (!string.IsNullOrEmpty(model.messagesJson)) {
+                chatEntries = JsonUtility.FromJson<ChatEntryList>(model.messagesJson).messages;
+            }
+
+            // Add new message and update model
+            chatEntries.Add(newEntry);
+            ChatEntryList chatEntryList = new ChatEntryList { messages = chatEntries };
+            model.messagesJson = JsonUtility.ToJson(chatEntryList);
         }
     }
 
     protected override void OnRealtimeModelReplaced(ChatModel previousModel, ChatModel currentModel) {
         if (previousModel != null) {
-            previousModel.latestMessageDidChange -= UpdateChat;
+            previousModel.messagesJsonDidChange -= UpdateChat;
         }
 
         if (currentModel != null) {
             if (currentModel.isFreshModel) {
-                currentModel.latestMessage = "";
+                currentModel.messagesJson = JsonUtility.ToJson(new ChatEntryList());
             }
 
-            currentModel.latestMessageDidChange += UpdateChat;
+            currentModel.messagesJsonDidChange += UpdateChat;
         }
     }
 
-    private void UpdateChat(ChatModel model, string newMessage) {
-        GameObject newChatMessage = Instantiate(chatMessagePrefab, chatMessagesContainer);
-        newChatMessage.GetComponentInChildren<TMP_Text>().text = newMessage;
+    private void UpdateChat(ChatModel model, string newMessagesJson) {
+        // Clear previous messages to prevent duplication
+        foreach (Transform child in chatMessagesContainer) {
+            Destroy(child.gameObject);
+        }
+
+        ChatEntryList chatEntryList = JsonUtility.FromJson<ChatEntryList>(newMessagesJson);
+        foreach (ChatEntry entry in chatEntryList.messages) {
+            GameObject newChatMessage = Instantiate(chatMessagePrefab, chatMessagesContainer);
+            TMP_Text messageText = newChatMessage.GetComponentInChildren<TMP_Text>();
+
+            string username = string.IsNullOrEmpty(entry.username) ? "Unknown" : entry.username;
+            messageText.text = $"<b>{username}:</b> {entry.message}";
+        }
     }
+}
+
+[System.Serializable]
+public class ChatEntry {
+    public string username;
+    public string message;
+}
+
+[System.Serializable]
+public class ChatEntryList {
+    public List<ChatEntry> messages = new List<ChatEntry>();
 }
