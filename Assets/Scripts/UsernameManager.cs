@@ -20,7 +20,7 @@ public class UsernameManager : MonoBehaviour {
     }
 
     private IEnumerator InitializeAfterSpawn() {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(3f);
 
         GameObject introPanel = GameObject.Find("Intro Panel");
         if (introPanel != null) {
