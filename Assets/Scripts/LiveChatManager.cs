@@ -105,6 +105,8 @@ public class LiveChatManager : RealtimeComponent<ChatModel> {
 
             string username = string.IsNullOrEmpty(entry.username) ? "Unknown" : entry.username;
             messageText.text = $"<b>{username}:</b> {entry.message}";
+
+            LayoutRebuilder.ForceRebuildLayoutImmediate(chatMessagesContainer.GetComponent<RectTransform>());
         }
     }
 }
