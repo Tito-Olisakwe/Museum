@@ -184,6 +184,12 @@ The VR museum will be deployed on **AppLab** and **SideQuest** for easy installa
 
 ---
 
+## **APK File**
+Download the application and try it out using this link:  
+[https://drive.google.com/file/d/1MYFZUzBOsAXuAuOMJgmkqEAXfaSHw0yw/view?usp=drive_link]  
+
+---
+
 ## **Video Demo**
-📹 Find the prototype video (AIT Prototype) in the media folder of the zip file or via this link:  
-[https://drive.google.com/file/d/1UXhWkYaajnFI6tLzVt1JI_Cnlkx50OpQ/view?usp=drive_link]  
+📹 Find the final product demo via this link:  
+[https://drive.google.com/file/d/1_sRy7LF2suI69i34QwTRGavvxtfPHLG7/view?usp=drive_link]  
