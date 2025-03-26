@@ -4736,7 +4736,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1035790433963668018, guid: 085ce58b196caa446a8545c9dd388793, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 807.37
+      value: 5729.46
       objectReference: {fileID: 0}
     - target: {fileID: 1035790433963668018, guid: 085ce58b196caa446a8545c9dd388793, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4748,7 +4748,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1035790433963668018, guid: 085ce58b196caa446a8545c9dd388793, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.78
+      value: -0.73
       objectReference: {fileID: 0}
     - target: {fileID: 1035790433963668018, guid: 085ce58b196caa446a8545c9dd388793, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -4756,11 +4756,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1035790433963668018, guid: 085ce58b196caa446a8545c9dd388793, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.00077241514
+      value: -0.000018780767
       objectReference: {fileID: 0}
     - target: {fileID: 1897108578803551515, guid: 085ce58b196caa446a8545c9dd388793, type: 3}
       propertyPath: m_text
-      value: Tutorial
+      value: Tutorial and Agreement
       objectReference: {fileID: 0}
     - target: {fileID: 1897108578803551515, guid: 085ce58b196caa446a8545c9dd388793, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -4982,6 +4982,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1035790433963668018, guid: 085ce58b196caa446a8545c9dd388793, type: 3}
       insertIndex: -1
       addedObject: {fileID: 523761342}
+    - targetCorrespondingSourceObject: {fileID: 1035790433963668018, guid: 085ce58b196caa446a8545c9dd388793, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1362013788}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 085ce58b196caa446a8545c9dd388793, type: 3}
 --- !u!1 &171224358 stripped
@@ -9340,6 +9343,185 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 312280015}
+  m_CullTransparentMesh: 1
+--- !u!1 &312741501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 312741502}
+  - component: {fileID: 312741504}
+  - component: {fileID: 312741503}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &312741502
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312741501}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -221.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1362013788}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 175.9, y: -501.5}
+  m_SizeDelta: {x: 352, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &312741503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312741501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "<b>End-User License, Copyright & Privacy Policy Agreement</b>\r\n<i>Version:
+    1.0</i>\r\n<i>Effective Date: March 2025</i>\r\n\r\n<b>1. Privacy Policy</b>\r\n<b>1.1.
+    Information We Collect</b>\r\n\u2022 Basic user identifiers (e.g., the nickname
+    or name entered during sign-in).\r\n\u2022 Feedback form submissions (voluntary
+    user insights on system experience).\r\n\u2022 Talent request form submissions
+    (company interest in connecting with featured women).\r\n\r\n<b>1.2. How We Use
+    This Information</b>\r\n\u2022 To display usernames above avatars during multiplayer
+    experiences.\r\n\u2022 To improve the museum environment and user experience
+    based on feedback.\r\n\u2022 To help connect interested organizations to African
+    female tech talent (only when both parties consent).\r\n\r\n<b>1.3. Data Protection</b>\r\n\u2022
+    All collected data is encrypted and stored securely.\r\n\u2022 No personal data
+    is sold, shared, or used for profiling purposes.\r\n\u2022 Anonymous usage statistics
+    may be used in academic research, presentations, or progress evaluations.\r\n\r\n<b>1.4.
+    Consent</b>\r\n\u2022 Users provide consent to basic data collection by entering
+    the museum.\r\n\u2022 Voice chat is peer-to-peer and not recorded or stored.\r\n\u2022
+    Users may opt out of voice chat by not enabling microphone permissions.\r\n\r\n<b>2.
+    Copyright Notice</b>\r\n<b>2.1. Ownership</b>\r\n\u2022 Unless explicitly stated
+    otherwise, <i>Tito-Paris Adaobi Olisakwe</i> owns the intellectual property rights
+    to the VR environment, interaction logic, and overall system design.\r\n\u2022
+    Biographical information is sourced from publicly available platforms (LinkedIn,
+    Instagram, Facebook, etc.) with respect for ethical storytelling.\r\n\r\n<b>2.2.
+    Fair Use and Attribution</b>\r\n\u2022 Third-party assets (3D models, audio,
+    UI components, etc.) used under open-source or Creative Commons licenses are
+    credited in the project\u2019s README file on GitHub.\r\n\u2022 Redistribution
+    or commercial reuse of system components is prohibited without written permission.\r\n\r\n<b>3.
+    End-User License Agreement (EULA)</b>\r\n<b>3.1. Permitted Use</b>\r\n\u2022
+    The VR museum is intended for educational, cultural, and nonprofit purposes.\r\n\u2022
+    Users are encouraged to share what they learn and submit feedback.\r\n\r\n<b>3.2.
+    Prohibited Actions</b>\r\n\u2022 Reverse engineering, data scraping, or extracting
+    assets is not allowed.\r\n\u2022 Misuse of the platform for harassment, misinformation,
+    or surveillance is strictly prohibited.\r\n\u2022 Users must treat all featured
+    women with respect.\r\n\r\n<b>3.3. Accessibility & Ubuntu Values</b>\r\n<i>This
+    experience is rooted in inclusivity, cultural pride, and Ubuntu philosophy.</i>\r\nKey
+    features:\r\n\u2022 Audio narration for text content.\r\n\u2022 Search and teleportation
+    for easy navigation.\r\n\u2022 360\xB0 rotating exhibit tabs that auto-align
+    with users.\r\n\u2022 Multimodal interaction (voice + text chat).\r\n\r\n<b>4.
+    Liability Disclaimer</b>\r\n\u2022 This VR museum is provided \"as-is\" for educational
+    purposes.\r\n\u2022 Users may experience mild motion sickness\u2014breaks are
+    encouraged.\r\n\u2022 All bios are researched using public sources. If any information
+    is inaccurate, please notify us for correction.\r\n\r\n<b>5. Contact & Revisions</b>\r\n\U0001F4E7
+    Email: <i>t.olisakwe@alustudent.com</i>\r\n\u2022 This agreement may be updated
+    based on system improvements, legal requirements, or user feedback.\r\n\r\n<b>\u2705
+    Acknowledgment</b>\r\nBy entering the ADA IN TECH VR museum, you agree to the
+    terms outlined in this agreement.\r"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20
+  m_fontSizeBase: 20
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &312741504
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312741501}
   m_CullTransparentMesh: 1
 --- !u!1 &314037669
 GameObject:
@@ -17089,7 +17271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 523761342}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Tutorial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40682,6 +40864,42 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.0000918, y: 2, z: 17.750004}
   m_Center: {x: -203.52753, y: -20.489227, z: 8.875002}
+--- !u!1 &1362013787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1362013788}
+  m_Layer: 5
+  m_Name: Agreement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1362013788
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362013787}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 257}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 312741502}
+  m_Father: {fileID: 1305365465}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 200, y: -432.41}
+  m_SizeDelta: {x: 352, y: 202.94}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1365755796
 PrefabInstance:
   m_ObjectHideFlags: 0
