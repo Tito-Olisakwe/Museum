@@ -114,7 +114,7 @@ Detailed & Game Systems Design
 
 ## **Project Repository**
 You can find the source code and latest updates for this project on GitHub:  
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/Tito-Olisakwe/Museum/tree/prototype)  
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/Tito-Olisakwe/Museum/tree/touch-up)  
 
 ---
 
